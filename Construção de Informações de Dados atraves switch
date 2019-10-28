@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DOM - getElementById</title>
+</head>
+
+<body>
+
+
+    <style>
+        main {
+            background-color: silver;
+        }
+
+        .Textocodigo {
+            text-align: center;
+        }
+
+        .CampodePreenchimento {
+            position: relative;
+            left: 500px;
+        }
+    </style>
+
+    <main>
+        <br>
+
+        <div>
+            <h1 class="Textocodigo">Informe um Codigo do Produto:<h1>
+                    <input class="CampodePreenchimento" id="codigo1"></input>
+
+
+
+
+                    <Button type="button" onclick="Informar();">Procurar Codigo</Button>
+
+        </div>
+        <br>
+
+    </main>
+
+
+    <p id="respcodigo1"></p>
+
+<p id="rproduto1"></p>
+
+
+
+
+    <script type="text/javascript">
+
+
+
+
+
+
+        function Informar() {
+            var informação = document.getElementById("codigo1")).value;
+
+
+
+            switch (informação) {
+                case 1:
+                    document.getElementById("respcodigo1").innerHTML = ("Retorno da sua Resposta");
+
+                    break;
+
+
+                case 2:
+                    document.getElementById("respcodigo1").innerHTML = ("Retorno da sua Resposta");
+
+                    break;
+
+
+                default:
+                    document.getElementById("respcodigo1").innerHTML = ("Codigo não cadastrado");
+            }
+        }
+
+
+
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>
