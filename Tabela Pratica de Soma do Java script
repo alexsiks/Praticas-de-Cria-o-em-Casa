@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DOM - getElementById</title>
+</head>
+
+<body>
+
+    
+    <input id="p1">Qual e o Valor do Primeiro</input>
+
+    <input id="p2">Qual e o Valor do segundo</input>
+
+
+    <Button type="button" onclick="somar();">Soma</Button>
+
+    <p id="number()"></p>
+
+    <p id= "mensagem1"></p>
+
+    <script type="text/javascript">
+
+    
+
+   
+
+
+function somar (){
+        var n1 = document.getElementById("p1").value;
+        var n2 = document.getElementById("p2").value;
+
+        var soma = parseInt(n1) + parseInt(n2);
+
+        
+
+        document.getElementById("number()").innerHTML = soma; 
+        
+        if  (soma > 10)
+        document.getElementById("mensagem1").innerHTML = ("O Numero e maior que 10");
+        
+        else document.getElementById("mensagem1").innerHTML = ("O Numero Precisa ser Maior chapa");}
+    
+
+      
+
+    
+
+
+    </script>
+
+</body>
+
+</html>
