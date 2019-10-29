@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+        <title>Banco De Dados De Produto </title>
+    </head>
+    <body>
+        <style>
+            
+            .abatitulo{
+background-color: black;
+border: 2px solid yellow;
+color: yellow;
+text-align: center;
+
+}
+
+
+
+
+.caixaderesposta{
+background-color: black;
+border: 5px s yellow;
+color: yellow;
+text-align: center;}
+
+h2{background-color: black;
+color: yellow;
+border: 2px solid yellow;}
+
+input{padding: 5px;
+border: solid black;}
+
+button{border: black solid;
+color: solid yellow;}
+            
+            
+            body{background-color: blue;}
+            
+        </style>
+        
+        <div class="cabeçalho">
+        <h1 class="abatitulo">
+            Codigo de Produtos:
+        </h1>
+            
+            <h2 class="2titulo">Coloque o Codigo do Produto:</h2>
+            
+            <center><input id="campo1"></input>
+            <hr>
+       
+            
+            
+            <button id="botao1" onclick="procurar()" ><b>Digite Para Informar o Produto  </b>  </button>
+            
+            
+          
+            
+            
+            
+            <h1 class="caixaderesposta"id="resp1"></h1>
+            
+            
+            
+        </div>
+        
+      
+        
+       <script>
+           
+           function procurar(){
+           
+          
+           var informaçao = document.getElementById("campo1").value;
+
+                      
+
+
+           var codigo = parseInt(informaçao);
+           
+
+            
+           
+      if (codigo == 1)
+
+   document.getElementById("resp1").innerHTML = (" Snap");
+
+
+if (codigo == 2)
+
+   document.getElementById("resp1").innerHTML = (" O produto esta salvo");
+
+if (codigo == 3)
+
+   document.getElementById("resp1").innerHTML = (" O produto esta salvo");
+
+if (codigo == 4)
+
+   document.getElementById("resp1").innerHTML = (" O produto esta salvo");
+
+if (codigo == 5)
+
+   document.getElementById("resp1").innerHTML = (" O produto esta salvo");
+
+if (codigo == 6)
+
+   document.getElementById("resp1").innerHTML = (" O produto esta salvo");
+
+if (codigo == 7)
+
+   document.getElementById("resp1").innerHTML = (" O produto esta salvo");
+
+if (codigo == 8)
+
+   document.getElementById("resp1").innerHTML = (" O produto esta salvo");
+
+if (codigo > 8)
+
+   document.getElementById("resp1").innerHTML = (" O produto Nao Cadastrado");
+
+
+}
+
+        </script>
+    </body>
+</html>
