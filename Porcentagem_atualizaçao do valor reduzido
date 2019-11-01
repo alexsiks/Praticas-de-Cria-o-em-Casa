@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cauculadora de Porcentagem</title>
+</head>
+<body>
+    
+    <style>
+        body{background-color: yellow;
+text-alinlg: center;}        
+        h1{color: white;
+background-color: black ;}
+
+
+input{
+font-size: 20px;}
+
+button{
+padding: 20px;}
+
+.valor{ color: yellow;
+background-color: red;}
+
+main{background-color: silver;
+border: solid 8px;}
+
+
+.Valorsubtraido{background-color: black;
+color: white;}
+
+    </style>
+    
+  
+    <center>
+    <main>
+    
+    <h1>Valor R$: </h1>
+    <input id="preço">
+    
+    
+    <h1> % de Desconto</h1>
+    <input id="porcentagem">
+    
+    <hr>
+        
+        
+    
+    
+    
+    <button id="botao1" OnClick= "caucular()">Caucular</button>
+        
+        <h2 class="Valorsubtraido" id="Valorsubtraido">Valor Reduzido:</h2>
+    
+    
+    <h1 id="resultado">Valor Total R$:</h1>
+        
+        
+    </main>
+        
+        <a href="Pagina inicial .html"> <button> Banco De Dados De Produtos </button></a>
+             
+    
+    <script>
+        
+        function caucular(){
+var valorreduzido = document.getElementById("Valorsubtraido").value;
+        
+    var informação = document.getElementById("preço").value;
+
+    var desconto = document.getElementById("porcentagem").value;
+
+var definiçaodedesconto = informação-valordodesconto;
+    
+    var valordodesconto = parseFloat(desconto)*parseFloat(informação)/100;
+var valorcomdesconto = parseFloat(informação)-parseFloat(valordodesconto);
+        
+        document.getElementById("resultado").innerHTML = (" Valor " + "<span class= 'valor'>" + " R$ " + parseFloat(valorcomdesconto) + " </span>" );
+
+document.getElementById("Valorsubtraido").innerHTML = (definiçaodedesconto);
+}
+    </script>
+        
+         
+</body>
+</html>
