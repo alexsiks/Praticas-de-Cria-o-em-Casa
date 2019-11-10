@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+        <title>Banco De Dados De Produto </title>
+    </head>
+    <body>
+        <style>
+            
+            .abatitulo{
+background-color: black;
+border: 2px solid yellow;
+color: yellow;
+text-align: center;
+
+}
+
+
+
+
+.caixaderesposta{
+background-color: black;
+border: 1px solid yellow;
+color: yellow;}
+
+h2{background-color: black;
+color: yellow;
+border: 2px solid yellow;
+padding: ;}
+
+input{padding: 1px;
+font-size: 20px;
+border: solid black;}
+
+button{border: black solid;
+color: solid yellow;
+padding: 25px;
+font-alling: center;}
+
+form{background-color: silver;
+border:  solid silver;
+padding: 15px;}
+            
+            
+            body{background-color: blue;}
+           
+main{background-color: silver;
+padding: 15px;
+border: 2px solid black;}
+ 
+        </style>
+        
+        <body>
+
+            <a>clique</a>
+            
+            <center>
+        
+      
+        <h1 class="abatitulo">
+            Codigo de Produtos:
+        </h1>
+        
+        <main>
+            
+            
+            <h2 class="2titulo">Coloque o Codigo do Produto:</h2>
+            
+       
+            
+            <center><input id="campo1"></input>
+            <hr>
+       
+            
+            
+            <button id="botao1" onclick="procurar()"><b>Digite Para Informar o Produto  </b>  </button>
+            
+            
+          
+            
+            
+            
+            <h1 class="caixaderesposta" id="resp1">Codigo:</h1>
+            
+            
+            </main>
+            
+            <a href="index.html"><button>Banco De Dados De Produtos</button></a>
+         
+        
+        </cente>
+            
+        </body>
+      
+        
+       <script>
+           
+           function procurar(){
+           
+          
+           var informaçao = document.getElementById("campo1").value;
+
+                      
+
+
+           var codigo = parseInt(informaçao);
+           
+
+            
+           
+      if (codigo == 1)
+
+   document.getElementById("resp1").innerHTML = (" Pijama de Bolinha: R$ 39,90 ");
+
+
+if (codigo == 2)
+
+   document.getElementById("resp1").innerHTML = ("Camisa: R$ 20,00.");
+
+if (codigo == 3)
+
+   document.getElementById("resp1").innerHTML = (" Camiseta Azul: 24,90");
+
+if (codigo == 4)
+
+   document.getElementById("resp1").innerHTML = (" Sapato Social: R$ 60,00");
+
+if (codigo == 5)
+
+   document.getElementById("resp1").innerHTML = (" Meia Calça: R$ 65,00");
+
+if (codigo == 6)
+
+   document.getElementById("resp1").innerHTML = (" Casaco: R$ 190,00");
+
+if (codigo == 7)
+
+   document.getElementById("resp1").innerHTML = (" Chinelo: 12,90");
+
+if (codigo == 8)
+
+   document.getElementById("resp1").innerHTML = (" Sandalia: 39,90");
+
+if (codigo > 8)
+
+   document.getElementById("resp1").innerHTML = (" O produto Nao Cadastrado oou ");
+
+
+}
+
+        </script>
+    </body>
+</html>
