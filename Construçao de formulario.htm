@@ -1,0 +1,154 @@
+<html>
+
+<head>
+    <script language="JavaScript">
+        <!--
+        var point = 0;
+
+        function reponse(form) {
+            for (var i = 0; i < form.length; i++) {
+                if (form[i].checked) {
+                    break
+                }
+            }
+            var answer = ""
+            if (i < form.length) {
+                answer = form[i].value
+            }
+            return answer;
+        }
+
+        function solution(form) {
+            var points = 0;
+            var rep = "";
+            var comment = ""
+
+            if (reponse(form.question1) == "A") {
+                points += 5
+            }
+            if (reponse(form.question2) == "B") {
+                points += 5
+            }
+            if (reponse(form.question3) == "C") {
+                points += 5
+            }
+            if (reponse(form.question4) == "B") {
+                points += 5
+            }
+            if (reponse(form.question5) == "A") {
+                points += 5
+                if (reponse(form.question6) == "A") {
+                    points += 5
+                }
+                if (reponse(form.question7) == "B") {
+                    points += 5
+                }
+                if (reponse(form.question8) == "C") {
+                    points += 5
+                }
+                if (reponse(form.question9) == "B") {
+                    points += 5
+                }
+                if (reponse(form.question10) == "A") {
+                    points += 5
+                }
+
+                if (points == 0) {
+                    comment = "Voce Precisa ler mais a Biblia Rapaz!"
+                }
+                if (points == 5) {
+                    comment = "Ta Fraco!"
+                }
+                if (points == 10) {
+                    comment = " Esforce um pouco mais!"
+                }
+                if (points == 15) {
+                    comment = "Sua classificação ta na media !"
+                }
+                if (points == 20) {
+                    comment = "bravo!"
+                }
+                if (points > 25) {
+                    comment = "Que que isso em chefe!"
+                }
+            }
+
+            chaine = '' +
+                '<HTML><BODY><CENTER>' +
+                'Vous avez ' + points + ' point(s). ' + comment + '<BR>' +
+                '<form METHOD=POST ACTION="mailto:showtime@ifrance.com" ENCTYPE="text/plain">' +
+                '<input type="hidden" name="SUBJECT" value="qcm"><BR>' +
+                '<input type="hidden" name="point" value=' + points + '>' +
+                'Votre Prenom ou Pseudo:<BR>' +
+                '<input type="text" name="FROM" value="" size="39"><BR>' +
+                '<input type="submit" value="Envoyer les resultats">' +
+                '</form>' +
+                '</CENTER></BODY></HTML>'
+
+            solu = open();
+            solu.document.write(chaine)
+
+        }
+
+        //-->
+    </script>
+
+    <title>formulaire envoyer par E-mail</title>
+</head>
+
+<body>
+    <!--webbot bot="HTMLMarkup" startspan TAG="XBOT" -->
+    <<form NAME="QCM">
+        <!--webbot bot="HTMLMarkup" endspan
+-->
+        <u>
+
+<p>Valendo 5 Pontos Por Questao  </u>r�ponse<br>
+        <br> 1-Quem foi a mulher de Abraão ?<br>
+        <input TYPE="RADIO" NAME="question1" VALUE="A"> Sarah<br>
+        <input TYPE="RADIO" NAME="question1" VALUE="B"> Rebeca<br>
+        <input TYPE="RADIO" NAME="question1" VALUE="C"> Raquel<br>
+        <br> Mon site s'appele:<br>
+        <input TYPE="RADIO" NAME="question2" VALUE="A"> Belen<br>
+        <input TYPE="RADIO" NAME="question2" VALUE="B"> jerusalen<br>
+        <input TYPE="RADIO" NAME="question2" VALUE="C"> Truc<br>
+        <br> Je mesure:<br>
+        <input TYPE="RADIO" NAME="question3" VALUE="A"> 169cm<br>
+        <input TYPE="RADIO" NAME="question3" VALUE="B"> 189cm<br>
+        <input TYPE="RADIO" NAME="question3" VALUE="C"> 184cm<br>
+        <br> Quel est mon age:<br>
+        <input TYPE="RADIO" NAME="question4" VALUE="A"> 16<br>
+        <input TYPE="RADIO" NAME="question4" VALUE="B"> 17<br>
+        <input TYPE="RADIO" NAME="question4" VALUE="C"> 84<br>
+        <br> comment s'appelle mon chien:<br>
+        <input TYPE="RADIO" NAME="question5" VALUE="A"> J'en ai pas<br>
+        <input TYPE="RADIO" NAME="question5" VALUE="B"> Didier<br>
+        <input TYPE="RADIO" NAME="question5" VALUE="C"> superman<br>
+        <br>
+        <br> 1-Quem foi a mulher de Abraão ?<br>
+        <input TYPE="RADIO" NAME="question6" VALUE="A"> Sarah<br>
+        <input TYPE="RADIO" NAME="question6" VALUE="B"> Rebeca<br>
+        <input TYPE="RADIO" NAME="question6" VALUE="C"> Raquel<br>
+        <br> Mon site s'appele:<br>
+        <input TYPE="RADIO" NAME="question7" VALUE="A"> Belen<br>
+        <input TYPE="RADIO" NAME="question7" VALUE="B"> jerusalen<br>
+        <input TYPE="RADIO" NAME="question7" VALUE="C"> Truc<br>
+        <br> Je mesure:<br>
+        <input TYPE="RADIO" NAME="question8" VALUE="A"> 169cm<br>
+        <input TYPE="RADIO" NAME="question8" VALUE="B"> 189cm<br>
+        <input TYPE="RADIO" NAME="question8" VALUE="C"> 184cm<br>
+        <br> Quel est mon age:<br>
+        <input TYPE="RADIO" NAME="question9" VALUE="A"> 16<br>
+        <input TYPE="RADIO" NAME="question9" VALUE="B"> 17<br>
+        <input TYPE="RADIO" NAME="question9" VALUE="C"> 84<br>
+        <br> comment s'appelle mon chien:<br>
+        <input TYPE="RADIO" NAME="question10" VALUE="A"> J'en ai pas<br>
+        <input TYPE="RADIO" NAME="question10" VALUE="B"> Didier<br>
+        <input TYPE="RADIO" NAME="question10" VALUE="C"> superman<br>
+        <br>
+        <input TYPE="BUTTON" NAME="valide" VALUE="RESULTATS" onclick="javascript:solution(this.form);"><br>
+        <br>
+        </p>
+</body>
+
+</html>
