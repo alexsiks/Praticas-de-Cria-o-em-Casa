@@ -1,0 +1,11 @@
+C:\Users\JOGOS\Desktop\Teste de Progamação com while\Teste de Progamação com while\obj\Debug\netcoreapp3.1\Teste de Progamação com while.csprojAssemblyReference.cache
+C:\Users\JOGOS\Desktop\Teste de Progamação com while\Teste de Progamação com while\obj\Debug\netcoreapp3.1\Teste de Progamação com while.AssemblyInfoInputs.cache
+C:\Users\JOGOS\Desktop\Teste de Progamação com while\Teste de Progamação com while\obj\Debug\netcoreapp3.1\Teste de Progamação com while.AssemblyInfo.cs
+C:\Users\JOGOS\Desktop\Teste de Progamação com while\Teste de Progamação com while\bin\Debug\netcoreapp3.1\Teste de Progamação com while.exe
+C:\Users\JOGOS\Desktop\Teste de Progamação com while\Teste de Progamação com while\bin\Debug\netcoreapp3.1\Teste de Progamação com while.deps.json
+C:\Users\JOGOS\Desktop\Teste de Progamação com while\Teste de Progamação com while\bin\Debug\netcoreapp3.1\Teste de Progamação com while.runtimeconfig.json
+C:\Users\JOGOS\Desktop\Teste de Progamação com while\Teste de Progamação com while\bin\Debug\netcoreapp3.1\Teste de Progamação com while.runtimeconfig.dev.json
+C:\Users\JOGOS\Desktop\Teste de Progamação com while\Teste de Progamação com while\bin\Debug\netcoreapp3.1\Teste de Progamação com while.dll
+C:\Users\JOGOS\Desktop\Teste de Progamação com while\Teste de Progamação com while\bin\Debug\netcoreapp3.1\Teste de Progamação com while.pdb
+C:\Users\JOGOS\Desktop\Teste de Progamação com while\Teste de Progamação com while\obj\Debug\netcoreapp3.1\Teste de Progamação com while.dll
+C:\Users\JOGOS\Desktop\Teste de Progamação com while\Teste de Progamação com while\obj\Debug\netcoreapp3.1\Teste de Progamação com while.pdb
